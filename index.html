@@ -1,0 +1,140 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Dashboard</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/sidebar.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="d-flex" id="wrapper">
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Basic Dashboard </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Employee</a>
+      </div>
+    </div>
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <a href="" id="menu-toggle"><i class="material-icons">arrow_back</i>
+            <i class="material-icons">arrow_forward</i>
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"> <i class="large material-icons text-danger">chat</i></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#"><i class="large material-icons text-info">person</i></a>
+              </li>
+        
+          </ul>
+        </div>
+      </nav>
+      <div class="d-flex" id="wrapper">
+      <div class="container">
+        <h1 class="mt-4">Emplloyee</h1>
+        <hr>
+        <table class=" table table-dark table-bordered ">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Year</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Rady</td>
+                    <td>WEP2016</td>
+                    <td>2004-2016</td>
+                    <td>
+                       
+                        <a href=""><i class="material-icons text-success">edit</i></a>
+                        <a href=""><i class="material-icons text-info">visibility</i></a>
+                        <a href=""><i class="material-icons text-danger">delete</i></a>
+                    </td>
+
+                </tr>
+
+                <tr>
+                        <td>2</td>
+                        <td>chaom</td>
+                        <td>WEP2019</td>
+                        <td>2017-2019</td>
+                        <td>
+                           
+                            <a href=""><i class="material-icons text-success">edit</i></a>
+                            <a href=""><i class="material-icons text-info">visibility</i></a>
+                            <a href=""><i class="material-icons text-danger">delete</i></a>
+                        </td>
+    
+                    </tr>
+
+                    <tr>
+                            <td>3</td>
+                            <td>sithaiventhia</td>
+                            <td>SNAS2019</td>
+                            <td>2017-2019</td>
+                        <td>
+                               
+                            <a href=""><i class="material-icons text-success">edit</i></a>
+                            <a href=""><i class="material-icons text-info">visibility</i></a>
+                            <a href=""><i class="material-icons text-danger">delete</i></a>
+                        </td>
+        
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>ssfs</td>
+                        <td>ssfs</td>
+                        <td>ssfs</td>
+                    <td>
+                           
+                        <a href=""><i class="material-icons text-success">edit</i></a>
+                        <a href=""><i class="material-icons text-info">visibility</i></a>
+                        <a href=""><i class="material-icons text-danger">delete</i></a>
+                    </td>
+    
+                </tr>
+               
+            </tbody>
+        </table>
+    </div> 
+    </div>
+  </div>
+  </div>
+ 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
